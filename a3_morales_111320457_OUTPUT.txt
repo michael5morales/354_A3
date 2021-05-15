@@ -1,0 +1,44 @@
+CHECKPOINT 2.2 - counts
+1-grams:
+	('language',) 760
+	('the',) 3828
+	('formal',) 14
+2-grams:
+	('the', 'language') 74
+	('<OOV>', 'language') 68
+	('to', 'process') 6
+3-grams:
+	 ('specific', 'formal', 'languages', 1)
+	 ('to', 'process', '<OOV>', 0)
+	 ('specific', 'formal', 'event', 0)
+
+CHECKPOINT 2.3 - Probs with add-one
+2-grams:
+	 ('the', 'language') 0.008494733265375467
+	 ('<OOV>', 'language') 0.013797240551889621
+	 ('to', 'process') 0.001105670510187964
+3-grams:
+	 (('specific', 'formal', 'languages'), 0.0004990227239114324)
+	 (('to', 'process', '<OOV>'), 0.0009767454991282986)
+	 (('specific', 'formal', 'event'), 'INVALID W_i')
+
+FINAL CHECKPOINT - Generated Language
+PROMPT: <s>
+	 ['<s>', 'the', '<OOV>', '<OOV>', 'process', '<OOV>', '<OOV>', 'and', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', '<OOV>', '<OOV>', '<OOV>', 'its', '<OOV>', '<OOV>', '<OOV>', 'to', '<OOV>', '<OOV>', '<OOV>', 'was', '<OOV>', '<OOV>', 'the', '<OOV>', '<OOV>', 'a', '<OOV>']
+	 ['<s>', 'in', '2002', 'to', '<OOV>', '<OOV>', 'is', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'and', '<OOV>', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'to', '<OOV>', '<OOV>', 'or', '<OOV>', '<OOV>', 'an', '<OOV>', '<OOV>', 'in']
+	 ['<s>', 'in', 'the', 'process', 'used', 'to', 'machine', 'learning', '.', '<OOV>', '<OOV>', 'of', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', 'and']
+
+PROMPT: <s> language is
+	 ['<s>', 'language', 'is', 'a', 'major', 'element', '<OOV>', '<OOV>', 'of', '<OOV>', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', 'is', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'the', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'of', '<OOV>', '<OOV>', 'or', '<OOV>']
+	 ['<s>', 'language', 'is', '<OOV>', '<OOV>', 'with', '<OOV>', '<OOV>', '<OOV>', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '<OOV>', 'a', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', 'in']
+	 ['<s>', 'language', 'is', 'a', '<OOV>', '<OOV>', 'process', '<OOV>', '<OOV>', 'thought', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'processes', '<OOV>', '<OOV>', '<OOV>', 'and', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', '<OOV>', '<OOV>', '<OOV>', '.']
+
+PROMPT: <s> machines
+	 ['<s>', 'machines', 'were', '<OOV>', '<OOV>', 'is', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', 'and', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '<OOV>', 'the', '<OOV>', '<OOV>', 'a', '<OOV>', '<OOV>', '<OOV>', 'process']
+	 ['<s>', 'machines', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', 'to', '<OOV>', '<OOV>', 'is', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'model', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>']
+	 ['<s>', 'machines', 'were', 'developed', 'by', '<OOV>', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'in', '<OOV>', '<OOV>', 'and', '<OOV>', '<OOV>', 'a', '<OOV>', '<OOV>', 'of', '<OOV>', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'the']
+
+PROMPT: <s> they want to process
+	 ['<s>', 'they', 'want', 'to', 'process', 'and', 'habituation', 'habituation', 'can', 'be', 'the', '<OOV>', '<OOV>', 'of', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'of', '<OOV>', '<OOV>', 'with', '<OOV>', '<OOV>']
+	 ['<s>', 'they', 'want', 'to', 'process', '.', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', '(', '<OOV>', '<OOV>', 'and', '<OOV>', '<OOV>', 'process', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>']
+	 ['<s>', 'they', 'want', 'to', 'process', 'and', 'the', '<OOV>', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', '.', '<OOV>', '<OOV>', 'the', '<OOV>', '<OOV>', ',', '<OOV>', '<OOV>', 'the', '<OOV>', '<OOV>', 'the']
